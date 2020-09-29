@@ -43,6 +43,14 @@ Something like this, for example, works:
 
 You can also see my `template_example.html` file to get a grasp of how it works.
 
+Files containing the content must be markdown files whose first line consist of an H1 heading. This line will also double as the title of the page. A good markdown file, for example, could be:
+
+    # Welcome to my page!
+
+    Hi, this is my page, written originally in *markdown*!
+
+    Enjoy your stay and [get in touch with me](https://mysite.com/contact).
+
 ## Disclaimer
 
 This is alpha-quality software and is not always guaranteed to work. I wrote it mostly for my own exercise since `bash` proved to be quite cumbersome for the task. There are probably many others out there much better suited, such as Jekyll.
